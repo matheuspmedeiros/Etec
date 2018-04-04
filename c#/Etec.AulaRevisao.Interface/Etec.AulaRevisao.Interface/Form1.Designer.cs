@@ -42,6 +42,8 @@
             this.txtCPF = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dtpNasc = new System.Windows.Forms.DateTimePicker();
+            this.btnConsultar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +57,7 @@
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(87, 182);
+            this.btnCadastrar.Location = new System.Drawing.Point(28, 182);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(79, 27);
             this.btnCadastrar.TabIndex = 1;
@@ -65,7 +67,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(205, 182);
+            this.btnLimpar.Location = new System.Drawing.Point(113, 182);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(79, 27);
             this.btnLimpar.TabIndex = 2;
@@ -160,13 +162,34 @@
             this.dtpNasc.Name = "dtpNasc";
             this.dtpNasc.Size = new System.Drawing.Size(111, 20);
             this.dtpNasc.TabIndex = 13;
-
+            // 
+            // btnConsultar
+            // 
+            this.btnConsultar.Location = new System.Drawing.Point(198, 182);
+            this.btnConsultar.Name = "btnConsultar";
+            this.btnConsultar.Size = new System.Drawing.Size(75, 27);
+            this.btnConsultar.TabIndex = 14;
+            this.btnConsultar.Text = "Consultar";
+            this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(279, 182);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(77, 27);
+            this.btnCancelar.TabIndex = 15;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 247);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.dtpNasc);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtCPF);
@@ -183,6 +206,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -205,6 +229,8 @@
         private System.Windows.Forms.TextBox txtCPF;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpNasc;
+        private System.Windows.Forms.Button btnConsultar;
+        private System.Windows.Forms.Button btnCancelar;
 
     }
 }

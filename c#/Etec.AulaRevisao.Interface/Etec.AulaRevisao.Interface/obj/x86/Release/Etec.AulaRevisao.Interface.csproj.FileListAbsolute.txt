@@ -5,3 +5,11 @@ C:\Users\Aluno\AppData\Local\Temporary Projects\Etec.AulaRevisao.Interface\obj\x
 C:\Users\Aluno\AppData\Local\Temporary Projects\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.csproj.GenerateResource.Cache
 C:\Users\Aluno\AppData\Local\Temporary Projects\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.exe
 C:\Users\Aluno\AppData\Local\Temporary Projects\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\bin\Release\Etec.AulaRevisao.Interface.exe
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\bin\Release\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.Form1.resources
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.csproj.GenerateResource.Cache
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.exe
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.pdb
+C:\Users\Aluno\Desktop\Etec\c#\Etec.AulaRevisao.Interface\Etec.AulaRevisao.Interface\obj\x86\Release\Etec.AulaRevisao.Interface.ConsultaFuncionario.resources

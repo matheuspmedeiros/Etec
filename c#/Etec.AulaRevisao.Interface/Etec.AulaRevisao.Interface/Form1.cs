@@ -73,6 +73,27 @@ namespace Etec.AulaRevisao.Interface
             dtpNasc.Text = "";
         }
 
+        private void btnConsultar_Click(object sender, EventArgs e)
+        {
+            ConsultaFuncionario consulta = new ConsultaFuncionario();
+            consulta.Show();
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Deseja Sair?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) ;
+            else
+            {
+                e.Cancel = true;
+            }
+        }
+
       
 
 
