@@ -33,10 +33,4 @@ public class Conexao {
 		}
 		
 	}
-
-
-
-	public static void main(String args[]) throws SQLException {
-		Conexao conexao = new Conexao();
-	}
 }

@@ -11,16 +11,16 @@ public class AlunosConexao {
 		Aluno alunos = new Aluno();
 		try {
 			
-			alunos.setNome("Jeferson Roberto de Lima");
-			alunos.setEndereco("Av Águia de Haia, 2600");
-			alunos.setBairro("Jd São Nicolau");
-			
+			/*alunos.setNome("Matheus Medeiros");
+			alunos.setEndereco("Rua Guarapariba, 65");
+			alunos.setBairro("Jd Lageado");
+			*/
 			Connection connection = Conexao.getConnection();
 			AlunoJdbcDao alunosJdbcDao = new AlunoJdbcDao(connection);
 			
-			alunosJdbcDao.salvar(alunos);
+		//	alunosJdbcDao.salvar(alunos);
+			alunosJdbcDao.listar();
 			
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
